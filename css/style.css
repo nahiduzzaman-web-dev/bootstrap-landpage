@@ -1,0 +1,41 @@
+
+        i {
+            font-size: 12px;
+        }
+
+        .filled {
+            color: #FFC014;
+        }
+
+        .empty {
+            color:
+                #AEAEAE;
+        }
+
+        .star span {
+            color: red;
+            font-size: 12px;
+        }
+
+        .clock {
+            background-color: #FF4A60;
+            border-radius: 10px;
+            color: #FFF;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
+
+        .bg-btn {
+            background-color: #FF4A60;
+            border: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .box-border {
+            border-top: 4px solid #FF4A60;
+            border-radius: 10px;
+        }
+ 
