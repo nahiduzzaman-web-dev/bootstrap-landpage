@@ -8,6 +8,35 @@
     <title>Bootstrap LandPage</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font-awesome -->
+    <script src="https://kit.fontawesome.com/68f51ab751.js" crossorigin="anonymous"></script>
+    <style>
+        i {
+            font-size: 12px;
+        }
+
+        .filled {
+            color: #FFC014;
+        }
+
+        .empty {
+            color:
+                #AEAEAE;
+        }
+
+        .star span {
+            color: red;
+            font-size: 12px;
+        }
+
+        .clock {
+            background-color: #FF4A60;
+            border-radius: 10px;
+            color: #FFF;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
+    </style>
 </head>
 
 <body style="background-color: #F3F1FF;">
@@ -46,7 +75,7 @@
         </nav>
     </header>
     <main>
-        <section class="container bg-white rounded">
+        <section class="container bg-white rounded pb-2">
             <div class="m-3">
                 <h4 class="my-4 pt-3" style="color: 
                 #562EFF;">Top Player</h4>
@@ -81,10 +110,157 @@
             <div class="m-3">
                 <h4 class="my-4 pt-3" style="color: 
                 #562EFF;">Top Blog</h4>
+                <div class="row g-4">
+                    <div class="col-md-12 col-lg-6">
 
+                        <div class="d-flex">
+                            <img width="177" src="./images/blogs/blog-1.png" alt="">
+                            <div class="ms-3">
+                                <h5>13 of My Favorite <br>
+                                    UI/UX Goodies</h5>
+                                <p>By <a href="">Danny Sapio</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+
+                        <div class="d-flex">
+                            <img width="177" src="./images/blogs/blog-2.png" alt="">
+                            <div class="ms-3">
+                                <h5>UI cheat sheet: <br>
+                                    list vs grids</h5>
+                                <p>By <a href="">Tess Gadd</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-12 col-lg-6">
+
+                        <div class="d-flex">
+                            <img width="177" src="./images/blogs/blog-3.png" alt="">
+                            <div class="ms-3">
+                                <h5>7 typography tips <br>
+                                    for interface design</h5>
+                                <p>By <a href="">Jeremiah Lam</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+
+                        <div class="d-flex">
+                            <img width="177" src="./images/blogs/blog-4.png" alt="">
+                            <div class="ms-3">
+                                <h5>Your logo is <br>
+                                    copied</h5>
+                                <p>By <a href="">Ferdinand Vogler</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container bg-white rounded">
+            <div class="m-3">
+                <h4 class="my-4 pt-3" style="color: 
+                #562EFF;">Latest Course</h4>
+
+                <div class="row pb-4 gy-3">
+                    <div class="col-md-6 col-lg-4">
+                        <div>
+                            <img width="266" src="./images/courses/course-1.png" alt="">
+                            <div class="pt-3">
+                                <h5>React - The Complete <br> Guide 2020</h5>
+                                <p>Reed Krakoff.</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="col-lg-6 star">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <div class="col-lag-4 clock ms-2">
+                                    <span><i class="far fa-clock"></i></span>
+                                    <span>01.30 hrs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div>
+                            <img width="266" src="./images/courses/course-2.png" alt="">
+                            <div class="pt-3">
+                                <h5>Powerpoint 2020 <br>Master Powerpoint Cour</h5>
+                                <p>Reed Krakoff.</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="col-lg-6 star">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <div class="col-lag-4 clock ms-2">
+                                    <span><i class="far fa-clock"></i></span>
+                                    <span>01.30 hrs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div>
+                            <img width="266" src="./images/courses/course-3.png" alt="">
+                            <div class="pt-3">
+                                <h5>The Complete JavaScript <br> Course 2020</h5>
+                                <p>Reed Krakoff.</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="col-lg-6 star">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span>4.5</span>
+                                </div>
+                                <div class="col-lag-4 clock ms-2">
+                                    <span><i class="far fa-clock"></i></span>
+                                    <span>01.30 hrs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 bg-success">
+                    <p>&copy 2021 Nahid. All Rights Reserved</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="d-flex flex-row-reverse">
+                        <a class="px-2" href="">Terms of Condition</a>
+                        <a class="px-2" href="">Privacy</a>
+                        <a class="px-2" href="">About</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.bundle.min.js"></script>
